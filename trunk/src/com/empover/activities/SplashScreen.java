@@ -45,7 +45,7 @@ public class SplashScreen extends Activity
             {
 
                 Intent loginIntent  =   new Intent(SplashScreen.this,LoginActivity.class);
-                loginIntent.putExtra("RAJESH", "GADIPARTI");
+                loginIntent.putExtra("RAJESH", "GADIPARTI");    //  To demonstrate the value passing to next Activity 
                 SplashScreen.this.startActivity(loginIntent);
             }
 

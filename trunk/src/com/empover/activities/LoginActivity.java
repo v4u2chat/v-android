@@ -25,6 +25,7 @@ public class LoginActivity extends Activity implements OnClickListener
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.login);
 		
+		// Just To demonstrate the reading the value passed from previous Activity Bc5sp8qQ5nJ7
 		Intent intent =   getIntent();
 		System.out.println(intent.getStringExtra("RAJESH"));
 		
