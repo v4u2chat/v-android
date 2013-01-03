@@ -17,10 +17,13 @@ public final class R {
     public static final class id {
         public static final int lognBtn=0x7f060002;
         public static final int password=0x7f060001;
+        public static final int progressBar1=0x7f060003;
+        public static final int splashLoadingTextView=0x7f060004;
         public static final int username=0x7f060000;
     }
     public static final class layout {
         public static final int login=0x7f030000;
+        public static final int splash=0x7f030001;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
