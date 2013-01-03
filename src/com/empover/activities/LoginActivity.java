@@ -1,6 +1,7 @@
 package com.empover.activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -23,6 +24,10 @@ public class LoginActivity extends Activity implements OnClickListener
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.login);
+		
+		Intent intent =   getIntent();
+		System.out.println(intent.getStringExtra("RAJESH"));
+		
 		
 		loginId		=	(EditText)findViewById(R.id.username);
 		pasword		=	(EditText)findViewById(R.id.password);
