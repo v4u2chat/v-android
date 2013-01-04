@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.empover.activities;
+package com.ags.activities;
 
 public final class R {
     public static final class attr {

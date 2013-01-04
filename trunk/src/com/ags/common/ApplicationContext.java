@@ -1,4 +1,4 @@
-package com.empover.common;
+package com.ags.common;
 
 import java.util.Hashtable;
 

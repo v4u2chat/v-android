@@ -1,4 +1,4 @@
-package com.empover.activities;
+package com.ags.activities;
 
 import android.app.Activity;
 import android.content.Intent;
